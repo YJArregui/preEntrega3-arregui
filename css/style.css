@@ -17,13 +17,10 @@ header{
     font-weight: bold;
     position: fixed;
 }
-.nombre-empresa{
-    font-size: 12px;
-}
-
 .header__logoNombre{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: 20px;
     height: 80%;
     width: 30%;
@@ -32,33 +29,37 @@ header{
     height: 80%;
     margin-right: 10px;
 }
-.header__navbar ul{
+.header__logoNombre p{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.header__navbar{
     display: flex;
     list-style-type: none;   
     font-size: 16px;  
     margin-right: 15px;
-}
-.header__navbar ul li{
+    background-color: none;
     padding-right: 15px;
     position: relative;
 }
-.header__navbar ul li a{
+.header__navbar a{
     text-decoration: none;
     color: black;
 }
-.header__navbar ul li:hover{
+.header__navbar a:hover{
     transform: scale(1.1);
 }
 #footerInformation{
     height: 10%;
-    width: 100%;
     background-color: #48bf84;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    padding: 5px;
-    position: absolute;
+    padding: 5px 0px;
+}
+#footerInformation p{
+    margin-bottom: 0px;
 }
 .footer__design{
     font-size: 12px;
