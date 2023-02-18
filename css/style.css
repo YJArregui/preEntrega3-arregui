@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #439775;
-    height: 10%;
+    height: 70px;
     width: 100%;
     align-items: center;
     font-family:'Poppins', sans-serif;
@@ -63,7 +63,7 @@ header{
     padding-top: 5px;
 }
 main{
-    padding-top: 60px;
+    padding-top: 70px;
 }
 .bannerBienvenida{
     height: 80px;
@@ -73,7 +73,7 @@ main{
     font-size: 40px;
     padding: 10px;
 }
-#contenidoPrincipal{
+.contenidoPrincipal{
     display: flex;
     flex-direction: column;
     align-items: center;
