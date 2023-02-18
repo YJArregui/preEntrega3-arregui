@@ -51,12 +51,14 @@ header{
 }
 #footerInformation{
     height: 10%;
+    width: 100%;
     background-color: #48bf84;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    padding: 5px 0px;
+    padding: 5px;
+    position: absolute;
 }
 .footer__design{
     font-size: 12px;
@@ -64,6 +66,7 @@ header{
 }
 main{
     padding-top: 90px;
+    padding-bottom: 0px;
 }
 .bannerBienvenida{
     height: 80px;
@@ -206,6 +209,11 @@ main{
     font: bold 14px 'Poppins', sans-serif;
     border-radius: 3px;
 } 
+.boton-solicitar:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
  .formulario-contacto{
     background-color: #FFE033;
     display: flex;
@@ -253,4 +261,7 @@ main{
     align-items: center;
     margin: 70px 200px;
     padding-bottom: 20px;
+ }
+ .descarga-factura{
+    height: 400px;
  }
