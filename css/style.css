@@ -17,6 +17,9 @@ header{
     font-weight: bold;
     position: fixed;
 }
+.nombre-empresa{
+    font-size: 12px;
+}
 
 .header__logoNombre{
     display: flex;
@@ -62,7 +65,7 @@ header{
 main{
     padding-top: 60px;
 }
-#bannerBienvenida{
+.bannerBienvenida{
     height: 80px;
     display: flex;
     justify-content: center;
