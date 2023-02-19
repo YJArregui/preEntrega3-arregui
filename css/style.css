@@ -81,9 +81,6 @@ main{
     padding-bottom: 0px;
     grid-area: main;
 }
-footer{
-    
-}
 .bannerBienvenida{
     height: 80px;
     display: flex;
@@ -285,7 +282,7 @@ footer{
     background-color: #FFE033;
     margin: 40px;
 }
-@media (max-width: 768px){
+@media (max-width: 576px){
     main{
         padding-top: 80px;
         
@@ -341,6 +338,30 @@ footer{
         margin: 5px;
         font-size: 10px;
     }
-    
-
+    .header__navbar{
+        
+        font-size: 12px;
+    }  
+    .footer__design{
+        font-size: 10px;
+    }
+    #footerInformation{
+        font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    #Guardias{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        height: 300px;
+    }
+    .guardia-telefonos{
+        width: 40%;
+        margin: 10px;
+    }
+    .header__logoNombre p{
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
 }
