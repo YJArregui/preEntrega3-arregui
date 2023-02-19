@@ -276,7 +276,7 @@ main{
     }
     .header__logoNombre p{
         margin-bottom: 0px;
-        font-size: 10px;
+        font-size: 5px;
     }
     .header__logoNombre{
         width: 60%;
