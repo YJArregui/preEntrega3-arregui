@@ -292,7 +292,7 @@ footer{
     }
     .header__logoNombre p{
         margin-bottom: 0px;
-        font-size: 5px;
+        font-size: 10px;
     }
     .header__logoNombre{
         width: 60%;
@@ -302,7 +302,8 @@ footer{
         font-size: 25px;
     }
     .contenidoPrincipal{
-        height: 250px;
+        height: 300px;
+        margin-bottom: 20px;
     }
     .contenidoPrincipal__contenedor-imagen{
         height: 40%;
@@ -311,7 +312,7 @@ footer{
         font-size: 20px
     }
     .contenidoPrincipal__contenedor-texto{
-        font-size: 10px 
+        font-size: 14px 
     }
     #Guardias{
         display: flex;
