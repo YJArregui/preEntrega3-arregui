@@ -269,3 +269,61 @@ main{
     background-color: #FFE033;
     margin: 40px;
 }
+@media (max-width: 768px){
+    main{
+        padding-top: 80px;
+        
+    }
+    .header__logoNombre p{
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    .header__logoNombre{
+        width: 60%;
+    }
+    .bannerBienvenida{
+        height: 30px;
+        font-size: 25px;
+    }
+    .contenidoPrincipal{
+        height: 250px;
+    }
+    .contenidoPrincipal__contenedor-imagen{
+        height: 40%;
+    }
+    .contenidoPrincipal__contenedor-titulo{
+        font-size: 20px
+    }
+    .contenidoPrincipal__contenedor-texto{
+        font-size: 10px 
+    }
+    #Guardias{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    .guardia-telefonos{
+        padding: 2px;
+        width: 50%;
+        margin: 5px;
+        height: auto;
+        font-size: 12px;
+    }
+    .guardia-telefonos p{
+        margin-bottom: 0px;
+    }
+    #horariosAtencion{
+        height: 40px;
+        margin-bottom: 10px;
+    }
+   .horarios{
+        margin: 5px;
+        font-size: 10px;
+    }
+    
+
+}
