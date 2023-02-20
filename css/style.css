@@ -147,35 +147,97 @@ main{
 
 /* Pagina institucional*/
 
+.institucionalmain{
+    padding-top: 90px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        "sectionuno sectionuno sectionuno sectionuno"
+        "sectiondos sectiondos sectiondos sectiondos"
+        "espacio espacio espacio espacio"
+    ;
+}
+.griduno{
+    grid-area: sectionuno;
+}
+.griddos{
+    grid-area: sectiondos;
+}
 .institucional-quienesSomos{
     height: 175px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 40px 40px 40px 60px;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "h2 h2 h2 h2"
+    "h3 h3 h3 h3"
+    "informacion informacion informacion informacion"
+    ;
+    justify-content: center;
 }
 .institucional__titulo{
     font: bold 40px 'Poiret One', cursive; 
     text-decoration: underline #ffe74c; 
+    grid-area: h2;
+    text-align: center;
 }
 .institucional__subtitulo{
     font: bold 25px 'Poiret One', cursive; 
+    grid-area: h3;
+    text-align: center;
 }
 .institucional__informacion{
     font: bold 16px 'Poppins', sans-serif;
-    width: 75%;
+    width: 100%;
+    display: grid;
+    grid-area: informacion;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .institucional-operandis{
-    display: flex;
-    flex-flow: row wrap;
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "contenedor1 contenedor2 contenedor3";
+    justify-content: space-around;
+    grid-column-gap: 5px;
+    margin-top: 40px;
+}
+
+.institucional-operandis2{
     padding: 0px 40px;
     justify-content: space-around;
     justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "contenedor4 contenedor4 contenedor4 contenedor4"
+    "contenedor5 contenedor5 contenedor5 contenedor5"
+    "contenedor6 contenedor6 contenedor6 contenedor6"
+    "contenedor7 contenedor7 contenedor7 contenedor7"
+    "contenedor8 contenedor8 contenedor8 contenedor8"
+    "contenedor9 contenedor9 contenedor9 contenedor9"
+    "contenedor10 contenedor10 contenedor10 contenedor10"
+    "contenedor11 contenedor11 contenedor11 contenedor11";
 }
-.operandis__contenedor{
-    width: 30%;
+.operandis__contenedor1{
+    width: 100%;
     margin-bottom: 5px;
+    grid-area: contenedor1;
+    align-content: center;
+    
+}
+.operandis__contenedor2{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor2;
+}
+.operandis__contenedor3{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor3;
 }
 .operandis__h3{
     font: bold 25px 'Poiret One', cursive; 
@@ -189,16 +251,70 @@ main{
     font: bold 16px 'Poppins', sans-serif;
     text-align: center;
 }
+.institucional__titulo2{
+    font: bold 40px 'Poiret One', cursive; 
+    text-decoration: underline #ffe74c; 
+    grid-area: h2;
+    text-align: center;
+    margin-bottom: 15px;
+}
 .institucional-consejo{
-    height: 120px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 40px 40px 60px;
+    padding: 40px 40px 20px 60px;
+    grid-area: consejo;
+}
+.operandis__contenedor4{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor4;
+    align-content: center;
+}
+.operandis__contenedor5{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor5;
+    align-content: center;
+}
+.operandis__contenedor6{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor6;
+    align-content: center;
+}
+.operandis__contenedor7{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor7;
+    align-content: center;
+}
+.operandis__contenedor8{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor8;
+    align-content: center;
+}
+.operandis__contenedor9{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor9;
+    align-content: center;
+}
+.operandis__contenedor10{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor10;
+    align-content: center;
+}
+.operandis__contenedor11{
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor11;
+    align-content: center;
 }
 .espacio-vacio{
     height: 40px;
+    grid-area: espacio;
 }
 
 /* Pagina servicios*/
