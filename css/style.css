@@ -322,15 +322,15 @@ p{
 
 /* Pagina servicios*/
 .servicios__contenedor{
-    width: 45%;
     margin-bottom: 20px;
     display: flex;
-    flex-flow: column wrap; 
+    flex-flow: column nowrap; 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 500px;
 }
 .servicios__img{
-    height: 30%;
+    width: 80%;
     border-radius: 5px;
     border: 5px #FFE033 solid;
     padding: 10px;
@@ -348,6 +348,7 @@ p{
     background-color: black;
     color: white;
 }
+
  .formulario-contacto{
     background-color: #FFE033;
     display: flex;
