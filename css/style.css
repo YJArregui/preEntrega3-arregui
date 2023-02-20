@@ -468,6 +468,9 @@ p{
     #footerInformation{
         font-size: 12px;
     }
+    .institucionalmain{
+        padding-top: 60px;
+    }
     .institucional__titulo{
         font-size: 20px; 
     }
