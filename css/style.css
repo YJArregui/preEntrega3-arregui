@@ -166,7 +166,7 @@ main{
 }
 .institucional-quienesSomos{
     height: 175px;
-    padding: 40px 40px 40px 60px;
+    padding: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
@@ -250,6 +250,9 @@ main{
 .operandis__texto{
     font: bold 16px 'Poppins', sans-serif;
     text-align: center;
+}
+p{
+    margin-bottom: 0px;
 }
 .institucional__titulo2{
     font: bold 40px 'Poiret One', cursive; 
@@ -464,6 +467,63 @@ main{
     }
     #footerInformation{
         font-size: 12px;
+    }
+    .institucional__titulo{
+        font-size: 20px; 
+    }
+    .institucional__subtitulo{
+        font-size: 18px; 
+        
+    }
+    .institucional__informacion{
+        font-size: 14px;
+    }
+    .institucional-operandis{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "contenedor1 contenedor1 contenedor1"
+        "contenedor2 contenedor2 contenedor2"
+        "contenedor3 contenedor3 contenedor3";
+        margin-top: 80px;
+    }
+    
+    .operandis__contenedor1{
+        width: 100%;
+        margin-bottom: 5px;
+        grid-area: contenedor1;
+        align-content: center;
+        
+    }
+    .operandis__contenedor2{
+        width: 100%;
+        margin-bottom: 5px;
+        grid-area: contenedor2;
+    }
+    .operandis__contenedor3{
+        width: 100%;
+        margin-bottom: 5px;
+        grid-area: contenedor3;
+    }
+    .operandis__h3{
+        font: bold 20px 'Poiret One', cursive; 
+        color: #ffe74c;
+        background-color: black;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .operandis__texto{
+        font: bold 14px 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .institucional__titulo2{
+        font-size: 20px
+    } 
+    .institucional-consejo{
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        grid-area: consejo;
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
