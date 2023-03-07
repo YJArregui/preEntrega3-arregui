@@ -526,6 +526,7 @@ p{
         width: 150px;
         font-size: 8px;
     }
+    
 
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -564,6 +565,9 @@ p{
         text-decoration: underline  #FFE033;
 
     }
+    textarea{
+        width: 220px;
+    }
 }
 @media (min-width: 365px) and (max-width:991px){
     
@@ -576,6 +580,9 @@ p{
     }
     .nav-link:hover{
         text-decoration: underline  #FFE033;
+    }
+    textarea{
+        width: 200px;
     }
 
 }
