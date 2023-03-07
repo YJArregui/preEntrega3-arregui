@@ -565,3 +565,17 @@ p{
 
     }
 }
+@media (min-width: 365px) and (max-width:991px){
+    
+    .navbar-nav{
+        position: fixed;
+        align-items: flex-start;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .nav-link:hover{
+        text-decoration: underline  #FFE033;
+    }
+
+}
