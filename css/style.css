@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #439775;
-    height: 70px;
+    
     width: 100%;
     align-items: center;
     font-family:'Poppins', sans-serif;
@@ -37,7 +37,7 @@ header{
     width: 30%;
 }
 .header__logoNombre img{
-    height: 80%;
+    height: 40px;
     margin-right: 10px;
 }
 .header__logoNombre p{
@@ -114,10 +114,9 @@ main{
     font: bold 16px 'Poppins', sans-serif;
     text-align: center;
 }
-#Guardias{
+.guardias{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     justify-content: space-around;
     align-items: center;
     height: 180px;
@@ -151,11 +150,11 @@ main{
     padding-top: 80px;
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas: 
-        "sectionuno sectionuno sectionuno sectionuno"
-        "sectiondos sectiondos sectiondos sectiondos"
-        "espacio espacio espacio espacio"
+        "sectionuno"
+        "sectiondos"
+        "espacio"
     ;
 }
 .griduno{
@@ -163,16 +162,17 @@ main{
 }
 .griddos{
     grid-area: sectiondos;
+    padding-bottom: 40px;
 }
 .institucional-quienesSomos{
     height: 175px;
     padding: 40px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas: 
-    "h2 h2 h2 h2"
-    "h3 h3 h3 h3"
-    "informacion informacion informacion informacion"
+    "h2"
+    "h3"
+    "informacion"
     ;
     justify-content: center;
 }
@@ -199,8 +199,7 @@ main{
     padding: 0px 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "contenedor1 contenedor2 contenedor3";
+    
     justify-content: space-around;
     grid-column-gap: 5px;
     margin-top: 40px;
@@ -211,33 +210,20 @@ main{
     justify-content: space-around;
     justify-content: space-between;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-    "contenedor4 contenedor4 contenedor4 contenedor4"
-    "contenedor5 contenedor5 contenedor5 contenedor5"
-    "contenedor6 contenedor6 contenedor6 contenedor6"
-    "contenedor7 contenedor7 contenedor7 contenedor7"
-    "contenedor8 contenedor8 contenedor8 contenedor8"
-    "contenedor9 contenedor9 contenedor9 contenedor9"
-    "contenedor10 contenedor10 contenedor10 contenedor10"
-    "contenedor11 contenedor11 contenedor11 contenedor11";
+    grid-template-columns: repeat(1, 1fr);
 }
 .operandis__contenedor1{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor1;
     align-content: center;
-    
 }
 .operandis__contenedor2{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor2;
 }
 .operandis__contenedor3{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor3;
 }
 .operandis__h3{
     font: bold 25px 'Poiret One', cursive; 
@@ -270,55 +256,44 @@ p{
 .operandis__contenedor4{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor4;
     align-content: center;
 }
 .operandis__contenedor5{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor5;
     align-content: center;
 }
 .operandis__contenedor6{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor6;
     align-content: center;
 }
 .operandis__contenedor7{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor7;
     align-content: center;
 }
 .operandis__contenedor8{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor8;
     align-content: center;
 }
 .operandis__contenedor9{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor9;
     align-content: center;
 }
 .operandis__contenedor10{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor10;
     align-content: center;
 }
 .operandis__contenedor11{
     width: 100%;
     margin-bottom: 5px;
-    grid-area: contenedor11;
     align-content: center;
 }
-.espacio-vacio{
-    height: 40px;
-    grid-area: espacio;
-}
+
 
 /* Pagina servicios*/
 .servicios__contenedor{
@@ -406,7 +381,18 @@ p{
 @media (max-width: 576px){
     main{
         padding-top: 80px;
-        
+    }
+    
+    .navbar-nav{
+        position: fixed;
+        align-items: flex-start;
+    }
+    .nav-link{
+        font-size: 10px;
+    }
+    .nav-link:hover{
+        text-decoration: underline  #FFE033;
+
     }
     .header__logoNombre p{
         margin-bottom: 0px;
@@ -420,30 +406,27 @@ p{
         font-size: 25px;
     }
     .contenidoPrincipal{
-        height: 300px;
+        height: 350px;
         margin-bottom: 20px;
     }
     .contenidoPrincipal__contenedor-imagen{
-        height: 40%;
+        height: 50%;
     }
     .contenidoPrincipal__contenedor-titulo{
         font-size: 20px
     }
     .contenidoPrincipal__contenedor-texto{
-        font-size: 14px 
+        font-size: 14px;
+        width: 100%;
+        padding: 15px;
+
     }
-    #Guardias{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-items: center;
-        justify-content: space-between;
-        align-items: center;
-        height: auto;
+    .guardias{
+         height: auto;
     }
     .guardia-telefonos{
         padding: 2px;
-        width: 50%;
+        width: 80%;
         margin: 5px;
         height: auto;
         font-size: 12px;
@@ -470,7 +453,7 @@ p{
         font-size: 12px;
     }
     .institucionalmain{
-        padding-top: 60px;
+        padding-top: 40px;
     }
     .institucional__titulo{
         font-size: 20px; 
@@ -483,12 +466,12 @@ p{
         font-size: 14px;
     }
     .institucional-operandis{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
-        "contenedor1 contenedor1 contenedor1"
-        "contenedor2 contenedor2 contenedor2"
-        "contenedor3 contenedor3 contenedor3";
-        margin-top: 80px;
+        "contenedor1"
+        "contenedor2"
+        "contenedor3";
+        margin-top: 40px;
     }
     
     .operandis__contenedor1{
@@ -529,13 +512,25 @@ p{
         padding: 20px 40px;
         grid-area: consejo;
     }
+    .servicios__contenedor{
+        height: auto;
+    }
+    .operandis__texto{
+        padding-bottom: 10px;
+    }
+    
+    .descarga-factura{
+        align-items: center;
+    }
+    input{
+        width: 150px;
+        font-size: 8px;
+    }
+
 }
 @media (min-width: 576px) and (max-width: 768px){
-    #Guardias{
-        display: flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-        height: 300px;
+    .guardias{
+       height: 300px;
     }
     .guardia-telefonos{
         width: 40%;
@@ -544,5 +539,29 @@ p{
     .header__logoNombre p{
         margin-bottom: 0px;
         font-size: 10px;
+    }
+    .institucional-operandis{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "contenedor1 contenedor2"
+        "contenedor3";
+        margin-top: 40px;
+    }
+    .griduno{
+        height: auto;
+    }
+    .institucional-consejo{
+        padding: 20px 40px;
+    }
+    .navbar-nav{
+        position: fixed;
+        align-items: flex-start;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .nav-link:hover{
+        text-decoration: underline  #FFE033;
+
     }
 }
