@@ -30,7 +30,7 @@
 }
 .institucional__titulo{
     font: bold 40px 'Poiret One', cursive; 
-    text-decoration: underline #ffe74c; 
+    text-decoration: underline $third-color; 
     grid-area: h2;
     text-align: center;
 }
@@ -79,8 +79,8 @@
 }
 .operandis__h3{
     font: bold 25px 'Poiret One', cursive; 
-    color: #ffe74c;
-    background-color: black;
+    color: $third-color;
+    background-color: $secondary-color;
     margin-bottom: 5px;
     text-align: center;
     width: 100%;
@@ -94,7 +94,7 @@ p{
 }
 .institucional__titulo2{
     font: bold 40px 'Poiret One', cursive; 
-    text-decoration: underline #ffe74c; 
+    text-decoration: underline $third-color; 
     grid-area: h2;
     text-align: center;
     margin-bottom: 15px;

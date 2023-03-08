@@ -11,7 +11,7 @@
         font-size: 10px;
     }
     .nav-link:hover{
-        text-decoration: underline  #FFE033;
+        text-decoration: underline  $primary-color;
 
     }
     .header__logoNombre p{
@@ -113,8 +113,8 @@
     }
     .operandis__h3{
         font: bold 20px 'Poiret One', cursive; 
-        color: #ffe74c;
-        background-color: black;
+        color: $third-color;
+        background-color: $secondary-color;
         margin-bottom: 5px;
         text-align: center;
         width: 100%;
@@ -180,7 +180,7 @@
         font-size: 12px;
     }
     .nav-link:hover{
-        text-decoration: underline  #FFE033;
+        text-decoration: underline  $primary-color;
 
     }
 }
@@ -194,7 +194,7 @@
         font-size: 12px;
     }
     .nav-link:hover{
-        text-decoration: underline  #FFE033;
+        text-decoration: underline $primary-color;
     }
     textarea{
         width: 200px;

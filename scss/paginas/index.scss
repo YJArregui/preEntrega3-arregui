@@ -17,7 +17,7 @@
 .contenidoPrincipal__contenedor-imagen{
     height: 70%;
     border: 2px solid;
-    border-color: #FFE033;
+    border-color: $primary-color;
     border-radius: 15px;
 }
 .contenidoPrincipal__contenedor-titulo{
@@ -38,7 +38,7 @@
     margin-bottom: 10px;
 }
 .guardia-telefonos{
-    background-color: #ffe74c;
+    background-color: $third-color;
     font: bold 16px 'Poppins', sans-serif;
     padding: 5px;
     width: 20%;
@@ -53,8 +53,8 @@
     margin-bottom: 20px;
 }
 .horarios{
-    background-color: black;
+    background-color: $secondary-color;
     padding: 10px;
     font: 16px 'Poiret One', cursive;
-    color: #ffe74c; 
+    color: $third-color; 
 }
