@@ -13,145 +13,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer"; }
 
-@media (max-width: 576px) {
-  main {
-    padding-top: 80px; }
-  .navbar-nav {
-    position: fixed;
-    align-items: flex-start; }
-  .nav-link {
-    font-size: 10px; }
-  .nav-link:hover {
-    text-decoration: underline #FFE033; }
-  .header__logoNombre p {
-    margin-bottom: 0px;
-    font-size: 10px; }
-  .header__logoNombre {
-    width: 60%; }
-  .bannerBienvenida {
-    height: 30px;
-    font-size: 25px; }
-  .contenidoPrincipal {
-    height: 350px;
-    margin-bottom: 20px; }
-  .contenidoPrincipal__contenedor-imagen {
-    height: 50%; }
-  .contenidoPrincipal__contenedor-titulo {
-    font-size: 20px; }
-  .contenidoPrincipal__contenedor-texto {
-    font-size: 14px;
-    width: 100%;
-    padding: 15px; }
-  .guardias {
-    height: auto; }
-  .guardia-telefonos {
-    padding: 2px;
-    width: 80%;
-    margin: 5px;
-    height: auto;
-    font-size: 12px; }
-  .guardia-telefonos p {
-    margin-bottom: 0px; }
-  #horariosAtencion {
-    height: 40px;
-    margin-bottom: 10px; }
-  .horarios {
-    margin: 5px;
-    font-size: 10px; }
-  .header__navbar {
-    font-size: 12px; }
-  .footer__design {
-    font-size: 10px; }
-  #footerInformation {
-    font-size: 12px; }
-  .institucionalmain {
-    padding-top: 40px; }
-  .institucional__titulo {
-    font-size: 20px; }
-  .institucional__subtitulo {
-    font-size: 18px; }
-  .institucional__informacion {
-    font-size: 14px; }
-  .institucional-operandis {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "contenedor1" "contenedor2" "contenedor3";
-    margin-top: 40px; }
-  .operandis__contenedor1 {
-    width: 100%;
-    margin-bottom: 5px;
-    grid-area: contenedor1;
-    align-content: center; }
-  .operandis__contenedor2 {
-    width: 100%;
-    margin-bottom: 5px;
-    grid-area: contenedor2; }
-  .operandis__contenedor3 {
-    width: 100%;
-    margin-bottom: 5px;
-    grid-area: contenedor3; }
-  .operandis__h3 {
-    font: bold 20px "Poppins", sans-serif;
-    color: #ffe74c;
-    background-color: black;
-    margin-bottom: 5px;
-    text-align: center;
-    width: 100%; }
-  .operandis__texto {
-    font: bold 14px 'Poppins', sans-serif;
-    text-align: center; }
-  .institucional__titulo2 {
-    font-size: 20px; }
-  .institucional-consejo {
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    grid-area: consejo; }
-  .servicios__contenedor {
-    height: auto; }
-  .operandis__texto {
-    padding-bottom: 10px; }
-  .descarga-factura {
-    align-items: center; }
-  input {
-    width: 150px;
-    font-size: 8px; } }
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .guardias {
-    height: 300px; }
-  .guardia-telefonos {
-    width: 40%;
-    margin: 10px; }
-  .header__logoNombre p {
-    margin-bottom: 0px;
-    font-size: 10px; }
-  .institucional-operandis {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "contenedor1 contenedor2" "contenedor3";
-    margin-top: 40px; }
-  .griduno {
-    height: auto; }
-  .institucional-consejo {
-    padding: 20px 40px; }
-  .navbar-nav {
-    position: fixed;
-    align-items: flex-start; }
-  .nav-link {
-    font-size: 12px; }
-  .nav-link:hover {
-    text-decoration: underline #FFE033; } }
-
-@media (min-width: 365px) and (max-width: 991px) {
-  .navbar-nav {
-    position: fixed;
-    align-items: flex-start; }
-  .nav-link {
-    font-size: 12px; }
-  .nav-link:hover {
-    text-decoration: underline #FFE033; }
-  textarea {
-    width: 200px; } }
-
 #footerInformation {
   background-color: #48bf84;
   font-family: "Poppins", sans-serif;
@@ -482,3 +343,142 @@ p {
 
 .boton-enviar:hover {
   transform: scale(1.1); }
+
+@media (max-width: 576px) {
+  main {
+    padding-top: 80px; }
+  .navbar-nav {
+    position: fixed;
+    align-items: flex-start; }
+  .nav-link {
+    font-size: 10px; }
+  .nav-link:hover {
+    text-decoration: underline #FFE033; }
+  .header__logoNombre p {
+    margin-bottom: 0px;
+    font-size: 10px; }
+  .header__logoNombre {
+    width: 60%; }
+  .bannerBienvenida {
+    height: 30px;
+    font-size: 25px; }
+  .contenidoPrincipal {
+    height: 350px;
+    margin-bottom: 20px; }
+  .contenidoPrincipal__contenedor-imagen {
+    height: 50%; }
+  .contenidoPrincipal__contenedor-titulo {
+    font-size: 20px; }
+  .contenidoPrincipal__contenedor-texto {
+    font-size: 14px;
+    width: 100%;
+    padding: 15px; }
+  .guardias {
+    height: auto; }
+  .guardia-telefonos {
+    padding: 2px;
+    width: 80%;
+    margin: 5px;
+    height: auto;
+    font-size: 12px; }
+  .guardia-telefonos p {
+    margin-bottom: 0px; }
+  #horariosAtencion {
+    height: 40px;
+    margin-bottom: 10px; }
+  .horarios {
+    margin: 5px;
+    font-size: 10px; }
+  .header__navbar {
+    font-size: 12px; }
+  .footer__design {
+    font-size: 10px; }
+  #footerInformation {
+    font-size: 12px; }
+  .institucionalmain {
+    padding-top: 40px; }
+  .institucional__titulo {
+    font-size: 20px; }
+  .institucional__subtitulo {
+    font-size: 18px; }
+  .institucional__informacion {
+    font-size: 14px; }
+  .institucional-operandis {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "contenedor1" "contenedor2" "contenedor3";
+    margin-top: 40px; }
+  .operandis__contenedor1 {
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor1;
+    align-content: center; }
+  .operandis__contenedor2 {
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor2; }
+  .operandis__contenedor3 {
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor3; }
+  .operandis__h3 {
+    font: bold 20px "Poppins", sans-serif;
+    color: #ffe74c;
+    background-color: black;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%; }
+  .operandis__texto {
+    font: bold 14px 'Poppins', sans-serif;
+    text-align: center; }
+  .institucional__titulo2 {
+    font-size: 20px; }
+  .institucional-consejo {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    grid-area: consejo; }
+  .servicios__contenedor {
+    height: auto; }
+  .operandis__texto {
+    padding-bottom: 10px; }
+  .descarga-factura {
+    align-items: center; }
+  input {
+    width: 150px;
+    font-size: 8px; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .guardias {
+    height: 300px; }
+  .guardia-telefonos {
+    width: 40%;
+    margin: 10px; }
+  .header__logoNombre p {
+    margin-bottom: 0px;
+    font-size: 10px; }
+  .institucional-operandis {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "contenedor1 contenedor2" "contenedor3";
+    margin-top: 40px; }
+  .griduno {
+    height: auto; }
+  .institucional-consejo {
+    padding: 20px 40px; }
+  .navbar-nav {
+    position: fixed;
+    align-items: flex-start; }
+  .nav-link {
+    font-size: 12px; }
+  .nav-link:hover {
+    text-decoration: underline #FFE033; } }
+
+@media (min-width: 365px) and (max-width: 991px) {
+  .navbar-nav {
+    position: fixed;
+    align-items: flex-start; }
+  .nav-link {
+    font-size: 12px; }
+  .nav-link:hover {
+    text-decoration: underline #FFE033; }
+  textarea {
+    width: 200px; } }
