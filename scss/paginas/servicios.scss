@@ -17,7 +17,7 @@
     padding: 5px 0px;
     border: none;
     background-color: $primary-color;
-    font: bold 14px 'Poppins', sans-serif;
+    font: bold 14px $primary-font;
     border-radius: 3px;
 } 
 .boton-solicitar:hover{
@@ -31,7 +31,7 @@
     padding: 5px 0px;
     border: none;
     background-color: $fifth-color;
-    font: bold 14px 'Poppins', sans-serif;
+    font: bold 14px $primary-font;
     border-radius: 3px;
  }
  .boton-enviar:hover{

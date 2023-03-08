@@ -2,7 +2,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    font-family: 'Poiret One', cursive;
+    font-family: $secondary-font;
     font-size: 40px;
     padding: 10px;
 }
@@ -21,12 +21,12 @@
     border-radius: 15px;
 }
 .contenidoPrincipal__contenedor-titulo{
-    font: bolder 20px/40px 'Poiret One', cursive; 
+    font: bolder 20px/40px $secondary-font; 
 }
 .contenidoPrincipal__contenedor-texto{
     width: 65%;
     height: 90px;
-    font: bold 16px 'Poppins', sans-serif;
+    font: bold 16px $primary-font;
     text-align: center;
 }
 .guardias{
@@ -39,7 +39,7 @@
 }
 .guardia-telefonos{
     background-color: $third-color;
-    font: bold 16px 'Poppins', sans-serif;
+    font: bold 16px $primary-font;
     padding: 5px;
     width: 20%;
     text-align: center;
@@ -55,6 +55,6 @@
 .horarios{
     background-color: $secondary-color;
     padding: 10px;
-    font: 16px 'Poiret One', cursive;
+    font: 16px $secondary-font;
     color: $third-color; 
 }

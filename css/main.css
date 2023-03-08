@@ -1,18 +1,3 @@
-#footerInformation {
-  background-color: #48bf84;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px 0px;
-  grid-area: footer; }
-  #footerInformation p {
-    margin-bottom: 0px; }
-
-.footer__design {
-  font-size: 12px;
-  padding-top: 5px; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -26,51 +11,7 @@ body {
   background-color: #61D095;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat 4, 1fr;
-  grid-template-areas: "header header header header"
- "main main main main"
- "main main main main"
- "footer footer footer footer"; }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #439775;
-  width: 100%;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  position: fixed;
-  grid-area: header; }
-
-.header__logoNombre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20px;
-  height: 80%;
-  width: 30%; }
-  .header__logoNombre img {
-    height: 40px;
-    margin-right: 10px; }
-  .header__logoNombre p {
-    margin-bottom: 0px;
-    font-size: 12px; }
-
-.header__navbar ul {
-  display: flex;
-  list-style-type: none;
-  font-size: 16px;
-  margin-right: 15px; }
-  .header__navbar ul li {
-    padding-right: 15px;
-    position: relative; }
-    .header__navbar ul li :hover {
-      transform: scale(1.1); }
-    .header__navbar ul li a {
-      text-decoration: none;
-      color: black; }
+  grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer"; }
 
 @media (max-width: 576px) {
   main {
@@ -81,7 +22,7 @@ header {
   .nav-link {
     font-size: 10px; }
   .nav-link:hover {
-    text-decoration: underline  #FFE033; }
+    text-decoration: underline #FFE033; }
   .header__logoNombre p {
     margin-bottom: 0px;
     font-size: 10px; }
@@ -133,9 +74,7 @@ header {
     font-size: 14px; }
   .institucional-operandis {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "contenedor1"
- "contenedor2"
- "contenedor3";
+    grid-template-areas: "contenedor1" "contenedor2" "contenedor3";
     margin-top: 40px; }
   .operandis__contenedor1 {
     width: 100%;
@@ -151,7 +90,7 @@ header {
     margin-bottom: 5px;
     grid-area: contenedor3; }
   .operandis__h3 {
-    font: bold 20px 'Poiret One', cursive;
+    font: bold 20px "Poppins", sans-serif;
     color: #ffe74c;
     background-color: black;
     margin-bottom: 5px;
@@ -188,8 +127,7 @@ header {
     font-size: 10px; }
   .institucional-operandis {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "contenedor1 contenedor2"
- "contenedor3";
+    grid-template-areas: "contenedor1 contenedor2" "contenedor3";
     margin-top: 40px; }
   .griduno {
     height: auto; }
@@ -201,7 +139,7 @@ header {
   .nav-link {
     font-size: 12px; }
   .nav-link:hover {
-    text-decoration: underline  #FFE033; } }
+    text-decoration: underline #FFE033; } }
 
 @media (min-width: 365px) and (max-width: 991px) {
   .navbar-nav {
@@ -210,9 +148,64 @@ header {
   .nav-link {
     font-size: 12px; }
   .nav-link:hover {
-    text-decoration: underline  #FFE033; }
+    text-decoration: underline #FFE033; }
   textarea {
     width: 200px; } }
+
+#footerInformation {
+  background-color: #48bf84;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  grid-area: footer; }
+  #footerInformation p {
+    margin-bottom: 0px; }
+
+.footer__design {
+  font-size: 12px;
+  padding-top: 5px; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #439775;
+  width: 100%;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  grid-area: header; }
+
+.header__logoNombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  height: 80%;
+  width: 30%; }
+  .header__logoNombre img {
+    height: 40px;
+    margin-right: 10px; }
+  .header__logoNombre p {
+    margin-bottom: 0px;
+    font-size: 12px; }
+
+.header__navbar ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+  margin-right: 15px; }
+  .header__navbar ul li {
+    padding-right: 15px;
+    position: relative; }
+    .header__navbar ul li :hover {
+      transform: scale(1.1); }
+    .header__navbar ul li a {
+      text-decoration: none;
+      color: black; }
 
 .formulario-contacto {
   background-color: #FFE033;
@@ -230,14 +223,14 @@ input {
   height: 40px;
   text-align: center;
   border-radius: 5px;
-  font: bold 12px 'Poppins', sans-serif; }
+  font: bold 12px "Poppins", sans-serif; }
 
 textarea {
   background-color: #48bf84;
   width: 400px;
   text-align: center;
   border-radius: 5px;
-  font: bold 12px 'Poppins', sans-serif;
+  font: bold 12px "Poppins", sans-serif;
   padding-bottom: 5px; }
 
 .formulario-ingreso {
@@ -260,7 +253,7 @@ textarea {
   height: 80px;
   display: flex;
   justify-content: center;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-size: 40px;
   padding: 10px; }
 
@@ -278,12 +271,12 @@ textarea {
   border-radius: 15px; }
 
 .contenidoPrincipal__contenedor-titulo {
-  font: bolder 20px/40px 'Poiret One', cursive; }
+  font: bolder 20px/40px "Poiret One", cursive; }
 
 .contenidoPrincipal__contenedor-texto {
   width: 65%;
   height: 90px;
-  font: bold 16px 'Poppins', sans-serif;
+  font: bold 16px "Poppins", sans-serif;
   text-align: center; }
 
 .guardias {
@@ -296,7 +289,7 @@ textarea {
 
 .guardia-telefonos {
   background-color: #ffe74c;
-  font: bold 16px 'Poppins', sans-serif;
+  font: bold 16px "Poppins", sans-serif;
   padding: 5px;
   width: 20%;
   text-align: center;
@@ -312,7 +305,7 @@ textarea {
 .horarios {
   background-color: black;
   padding: 10px;
-  font: 16px 'Poiret One', cursive;
+  font: 16px "Poiret One", cursive;
   color: #ffe74c; }
 
 .institucionalmain {
@@ -320,9 +313,7 @@ textarea {
   padding-bottom: 0px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "sectionuno"
- "sectiondos"
- "espacio"; }
+  grid-template-areas: "sectionuno" "sectiondos" "espacio"; }
 
 .griduno {
   grid-area: sectionuno; }
@@ -336,24 +327,22 @@ textarea {
   padding: 40px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "h2"
- "h3"
- "informacion";
+  grid-template-areas: "h2" "h3" "informacion";
   justify-content: center; }
 
 .institucional__titulo {
-  font: bold 40px 'Poiret One', cursive;
+  font: bold 40px "Poiret One", cursive;
   text-decoration: underline #ffe74c;
   grid-area: h2;
   text-align: center; }
 
 .institucional__subtitulo {
-  font: bold 25px 'Poiret One', cursive;
+  font: bold 25px "Poiret One", cursive;
   grid-area: h3;
   text-align: center; }
 
 .institucional__informacion {
-  font: bold 16px 'Poppins', sans-serif;
+  font: bold 16px "Poppins", sans-serif;
   width: 100%;
   display: grid;
   grid-area: informacion;
@@ -389,7 +378,7 @@ textarea {
   margin-bottom: 5px; }
 
 .operandis__h3 {
-  font: bold 25px 'Poiret One', cursive;
+  font: bold 25px "Poiret One", cursive;
   color: #ffe74c;
   background-color: black;
   margin-bottom: 5px;
@@ -397,14 +386,14 @@ textarea {
   width: 100%; }
 
 .operandis__texto {
-  font: bold 16px 'Poppins', sans-serif;
+  font: bold 16px "Poppins", sans-serif;
   text-align: center; }
 
 p {
   margin-bottom: 0px; }
 
 .institucional__titulo2 {
-  font: bold 40px 'Poiret One', cursive;
+  font: bold 40px "Poiret One", cursive;
   text-decoration: underline #ffe74c;
   grid-area: h2;
   text-align: center;
@@ -475,7 +464,7 @@ p {
   padding: 5px 0px;
   border: none;
   background-color: #FFE033;
-  font: bold 14px 'Poppins', sans-serif;
+  font: bold 14px "Poppins", sans-serif;
   border-radius: 3px; }
 
 .boton-solicitar:hover {
@@ -488,7 +477,7 @@ p {
   padding: 5px 0px;
   border: none;
   background-color: #439775;
-  font: bold 14px 'Poppins', sans-serif;
+  font: bold 14px "Poppins", sans-serif;
   border-radius: 3px; }
 
 .boton-enviar:hover {

@@ -1,17 +1,17 @@
 input{
-    background-color: #48bf84;
+    background-color: $sixth-color;
     width: 400px;
     height: 40px;
     text-align: center;
     border-radius: 5px;
-    font: bold 12px 'Poppins', sans-serif; ;
+    font: bold 12px $primary-font; ;
  }
  textarea{
-    background-color: #48bf84;
+    background-color: $sixth-color;
     width: 400px;
     text-align: center;
     border-radius: 5px;
-    font: bold 12px 'Poppins', sans-serif; 
+    font: bold 12px $primary-font; 
     padding-bottom: 5px;
  }
 .formulario-ingreso{

@@ -29,18 +29,18 @@
     justify-content: center;
 }
 .institucional__titulo{
-    font: bold 40px 'Poiret One', cursive; 
+    font: bold 40px $secondary-font; 
     text-decoration: underline $third-color; 
     grid-area: h2;
     text-align: center;
 }
 .institucional__subtitulo{
-    font: bold 25px 'Poiret One', cursive; 
+    font: bold 25px $secondary-font; 
     grid-area: h3;
     text-align: center;
 }
 .institucional__informacion{
-    font: bold 16px 'Poppins', sans-serif;
+    font: bold 16px $primary-font;
     width: 100%;
     display: grid;
     grid-area: informacion;
@@ -78,7 +78,7 @@
     margin-bottom: 5px;
 }
 .operandis__h3{
-    font: bold 25px 'Poiret One', cursive; 
+    font: bold 25px $secondary-font; 
     color: $third-color;
     background-color: $secondary-color;
     margin-bottom: 5px;
@@ -86,14 +86,14 @@
     width: 100%;
 }
 .operandis__texto{
-    font: bold 16px 'Poppins', sans-serif;
+    font: bold 16px $primary-font;
     text-align: center;
 }
 p{
     margin-bottom: 0px;
 }
 .institucional__titulo2{
-    font: bold 40px 'Poiret One', cursive; 
+    font: bold 40px $secondary-font; 
     text-decoration: underline $third-color; 
     grid-area: h2;
     text-align: center;

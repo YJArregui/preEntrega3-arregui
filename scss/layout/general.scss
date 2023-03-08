@@ -1,9 +1,22 @@
+//colores//
 $primary-color: #FFE033;
 $secondary-color: black;
 $third-color: #ffe74c;
 $fourth-color: #61D095;
 $fifth-color: #439775;
 $sixth-color: #48bf84;
+
+//bucles//
+//@each $color in #ffe74c, black, #61D095, #439775, blue {
+    //.bk-#{$color} {
+    //background-color: $color
+    //}
+//}
+
+//fuentes//
+$primary-font:'Poppins', sans-serif;
+$secondary-font: 'Poiret One', cursive;
+
 
 *{
     margin: 0;
@@ -15,10 +28,9 @@ main{
     grid-area: main;
 }
 body{
-    background-color: $secondary-color;
+    background-color: $fourth-color;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat (4,1fr);
     grid-template-areas: 
         "header header header header"
         "main main main main"
@@ -27,29 +39,7 @@ body{
 
 }
 
-//colores//
 
-$primary-color: #FFE033;
-$secondary-color: black;
-$third-color: #ffe74c;
-$fourth-color: #61D095;
-$fifth-color: #439775;
-$sixth-color: #48bf84;
-
-
-
-
-
-
-
-//@each $color in #ffe74c, black, #61D095, #439775{
-  //.bk-#{$color} {
-   //  background-color: $color
-    //}
-//}
-
-
-//fuente//
 
 
 
