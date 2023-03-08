@@ -1,0 +1,485 @@
+#footerInformation {
+  background-color: #48bf84;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  grid-area: footer; }
+  #footerInformation p {
+    margin-bottom: 0px; }
+
+.footer__design {
+  font-size: 12px;
+  padding-top: 5px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+main {
+  padding-top: 90px;
+  padding-bottom: 0px;
+  grid-area: main; }
+
+body {
+  background-color: #61D095;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat 4, 1fr;
+  grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer"; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #439775;
+  width: 100%;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  grid-area: header; }
+
+.header__logoNombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  height: 80%;
+  width: 30%; }
+  .header__logoNombre img {
+    height: 40px;
+    margin-right: 10px; }
+  .header__logoNombre p {
+    margin-bottom: 0px;
+    font-size: 12px; }
+
+.header__navbar ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+  margin-right: 15px; }
+  .header__navbar ul li {
+    padding-right: 15px;
+    position: relative; }
+    .header__navbar ul li :hover {
+      transform: scale(1.1); }
+    .header__navbar ul li a {
+      text-decoration: none;
+      color: black; }
+
+@media (max-width: 576px) {
+  main {
+    padding-top: 80px; }
+  .navbar-nav {
+    position: fixed;
+    align-items: flex-start; }
+  .nav-link {
+    font-size: 10px; }
+  .nav-link:hover {
+    text-decoration: underline  #FFE033; }
+  .header__logoNombre p {
+    margin-bottom: 0px;
+    font-size: 10px; }
+  .header__logoNombre {
+    width: 60%; }
+  .bannerBienvenida {
+    height: 30px;
+    font-size: 25px; }
+  .contenidoPrincipal {
+    height: 350px;
+    margin-bottom: 20px; }
+  .contenidoPrincipal__contenedor-imagen {
+    height: 50%; }
+  .contenidoPrincipal__contenedor-titulo {
+    font-size: 20px; }
+  .contenidoPrincipal__contenedor-texto {
+    font-size: 14px;
+    width: 100%;
+    padding: 15px; }
+  .guardias {
+    height: auto; }
+  .guardia-telefonos {
+    padding: 2px;
+    width: 80%;
+    margin: 5px;
+    height: auto;
+    font-size: 12px; }
+  .guardia-telefonos p {
+    margin-bottom: 0px; }
+  #horariosAtencion {
+    height: 40px;
+    margin-bottom: 10px; }
+  .horarios {
+    margin: 5px;
+    font-size: 10px; }
+  .header__navbar {
+    font-size: 12px; }
+  .footer__design {
+    font-size: 10px; }
+  #footerInformation {
+    font-size: 12px; }
+  .institucionalmain {
+    padding-top: 40px; }
+  .institucional__titulo {
+    font-size: 20px; }
+  .institucional__subtitulo {
+    font-size: 18px; }
+  .institucional__informacion {
+    font-size: 14px; }
+  .institucional-operandis {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "contenedor1" "contenedor2" "contenedor3";
+    margin-top: 40px; }
+  .operandis__contenedor1 {
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor1;
+    align-content: center; }
+  .operandis__contenedor2 {
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor2; }
+  .operandis__contenedor3 {
+    width: 100%;
+    margin-bottom: 5px;
+    grid-area: contenedor3; }
+  .operandis__h3 {
+    font: bold 20px 'Poiret One', cursive;
+    color: #ffe74c;
+    background-color: black;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%; }
+  .operandis__texto {
+    font: bold 14px 'Poppins', sans-serif;
+    text-align: center; }
+  .institucional__titulo2 {
+    font-size: 20px; }
+  .institucional-consejo {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    grid-area: consejo; }
+  .servicios__contenedor {
+    height: auto; }
+  .operandis__texto {
+    padding-bottom: 10px; }
+  .descarga-factura {
+    align-items: center; }
+  input {
+    width: 150px;
+    font-size: 8px; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .guardias {
+    height: 300px; }
+  .guardia-telefonos {
+    width: 40%;
+    margin: 10px; }
+  .header__logoNombre p {
+    margin-bottom: 0px;
+    font-size: 10px; }
+  .institucional-operandis {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "contenedor1 contenedor2" "contenedor3";
+    margin-top: 40px; }
+  .griduno {
+    height: auto; }
+  .institucional-consejo {
+    padding: 20px 40px; }
+  .navbar-nav {
+    position: fixed;
+    align-items: flex-start; }
+  .nav-link {
+    font-size: 12px; }
+  .nav-link:hover {
+    text-decoration: underline  #FFE033; } }
+
+@media (min-width: 365px) and (max-width: 991px) {
+  .navbar-nav {
+    position: fixed;
+    align-items: flex-start; }
+  .nav-link {
+    font-size: 12px; }
+  .nav-link:hover {
+    text-decoration: underline  #FFE033; }
+  textarea {
+    width: 200px; } }
+
+.formulario-contacto {
+  background-color: #FFE033;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  align-items: center;
+  margin: 40px;
+  padding-bottom: 20px; }
+
+input {
+  background-color: #48bf84;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font: bold 12px 'Poppins', sans-serif; }
+
+textarea {
+  background-color: #48bf84;
+  width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  font: bold 12px 'Poppins', sans-serif;
+  padding-bottom: 5px; }
+
+.formulario-ingreso {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 200px;
+  padding-bottom: 20px;
+  height: 400px; }
+
+.descarga-factura {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: #FFE033;
+  margin: 40px; }
+
+.bannerBienvenida {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  padding: 10px; }
+
+.contenidoPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  padding-top: 10px; }
+
+.contenidoPrincipal__contenedor-imagen {
+  height: 70%;
+  border: 2px solid;
+  border-color: #FFE033;
+  border-radius: 15px; }
+
+.contenidoPrincipal__contenedor-titulo {
+  font: bolder 20px/40px 'Poiret One', cursive; }
+
+.contenidoPrincipal__contenedor-texto {
+  width: 65%;
+  height: 90px;
+  font: bold 16px 'Poppins', sans-serif;
+  text-align: center; }
+
+.guardias {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+  margin-bottom: 10px; }
+
+.guardia-telefonos {
+  background-color: #ffe74c;
+  font: bold 16px 'Poppins', sans-serif;
+  padding: 5px;
+  width: 20%;
+  text-align: center;
+  border-radius: 5px; }
+
+#horariosAtencion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 20px; }
+
+.horarios {
+  background-color: black;
+  padding: 10px;
+  font: 16px 'Poiret One', cursive;
+  color: #ffe74c; }
+
+.institucionalmain {
+  padding-top: 80px;
+  padding-bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "sectionuno" "sectiondos" "espacio"; }
+
+.griduno {
+  grid-area: sectionuno; }
+
+.griddos {
+  grid-area: sectiondos;
+  padding-bottom: 40px; }
+
+.institucional-quienesSomos {
+  height: 175px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "h2" "h3" "informacion";
+  justify-content: center; }
+
+.institucional__titulo {
+  font: bold 40px 'Poiret One', cursive;
+  text-decoration: underline #ffe74c;
+  grid-area: h2;
+  text-align: center; }
+
+.institucional__subtitulo {
+  font: bold 25px 'Poiret One', cursive;
+  grid-area: h3;
+  text-align: center; }
+
+.institucional__informacion {
+  font: bold 16px 'Poppins', sans-serif;
+  width: 100%;
+  display: grid;
+  grid-area: informacion;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.institucional-operandis {
+  padding: 0px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  grid-column-gap: 5px;
+  margin-top: 40px; }
+
+.institucional-operandis2 {
+  padding: 0px 40px;
+  justify-content: space-around;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); }
+
+.operandis__contenedor1 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor2 {
+  width: 100%;
+  margin-bottom: 5px; }
+
+.operandis__contenedor3 {
+  width: 100%;
+  margin-bottom: 5px; }
+
+.operandis__h3 {
+  font: bold 25px 'Poiret One', cursive;
+  color: #ffe74c;
+  background-color: black;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%; }
+
+.operandis__texto {
+  font: bold 16px 'Poppins', sans-serif;
+  text-align: center; }
+
+p {
+  margin-bottom: 0px; }
+
+.institucional__titulo2 {
+  font: bold 40px 'Poiret One', cursive;
+  text-decoration: underline #ffe74c;
+  grid-area: h2;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.institucional-consejo {
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px 20px 60px;
+  grid-area: consejo; }
+
+.operandis__contenedor4 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor5 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor6 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor7 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor8 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor9 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor10 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.operandis__contenedor11 {
+  width: 100%;
+  margin-bottom: 5px;
+  align-content: center; }
+
+.servicios__contenedor {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px; }
+
+.servicios__img {
+  width: 80%;
+  border-radius: 5px;
+  border: 5px #FFE033 solid;
+  padding: 10px; }
+
+.boton-solicitar {
+  width: 80px;
+  padding: 5px 0px;
+  border: none;
+  background-color: #FFE033;
+  font: bold 14px 'Poppins', sans-serif;
+  border-radius: 3px; }
+
+.boton-solicitar:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white; }
+
+.boton-enviar {
+  width: 80px;
+  padding: 5px 0px;
+  border: none;
+  background-color: #439775;
+  font: bold 14px 'Poppins', sans-serif;
+  border-radius: 3px; }
+
+.boton-enviar:hover {
+  transform: scale(1.1); }

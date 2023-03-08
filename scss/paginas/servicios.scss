@@ -1,0 +1,39 @@
+.servicios__contenedor{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column nowrap; 
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+.servicios__img{
+    width: 80%;
+    border-radius: 5px;
+    border: 5px #FFE033 solid;
+    padding: 10px;
+}
+.boton-solicitar{
+    width: 80px;
+    padding: 5px 0px;
+    border: none;
+    background-color: #FFE033;
+    font: bold 14px 'Poppins', sans-serif;
+    border-radius: 3px;
+} 
+.boton-solicitar:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+.boton-enviar{
+    width: 80px;
+    padding: 5px 0px;
+    border: none;
+    background-color: #439775;
+    font: bold 14px 'Poppins', sans-serif;
+    border-radius: 3px;
+ }
+ .boton-enviar:hover{
+    transform: scale(1.1);
+}

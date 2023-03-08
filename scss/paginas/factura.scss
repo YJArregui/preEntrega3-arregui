@@ -1,0 +1,32 @@
+input{
+    background-color: #48bf84;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font: bold 12px 'Poppins', sans-serif; ;
+ }
+ textarea{
+    background-color: #48bf84;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    font: bold 12px 'Poppins', sans-serif; 
+    padding-bottom: 5px;
+ }
+.formulario-ingreso{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+    padding-bottom: 20px;
+    height: 400px;
+ }
+ .descarga-factura{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #FFE033;
+    margin: 40px;
+}

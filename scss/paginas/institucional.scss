@@ -1,0 +1,147 @@
+.institucionalmain{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+        "sectionuno"
+        "sectiondos"
+        "espacio"
+    ;
+}
+.griduno{
+    grid-area: sectionuno;
+}
+.griddos{
+    grid-area: sectiondos;
+    padding-bottom: 40px;
+}
+.institucional-quienesSomos{
+    height: 175px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "h2"
+    "h3"
+    "informacion"
+    ;
+    justify-content: center;
+}
+.institucional__titulo{
+    font: bold 40px 'Poiret One', cursive; 
+    text-decoration: underline #ffe74c; 
+    grid-area: h2;
+    text-align: center;
+}
+.institucional__subtitulo{
+    font: bold 25px 'Poiret One', cursive; 
+    grid-area: h3;
+    text-align: center;
+}
+.institucional__informacion{
+    font: bold 16px 'Poppins', sans-serif;
+    width: 100%;
+    display: grid;
+    grid-area: informacion;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.institucional-operandis{
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    justify-content: space-around;
+    grid-column-gap: 5px;
+    margin-top: 40px;
+}
+
+.institucional-operandis2{
+    padding: 0px 40px;
+    justify-content: space-around;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.operandis__contenedor1{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor2{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.operandis__contenedor3{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.operandis__h3{
+    font: bold 25px 'Poiret One', cursive; 
+    color: #ffe74c;
+    background-color: black;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+.operandis__texto{
+    font: bold 16px 'Poppins', sans-serif;
+    text-align: center;
+}
+p{
+    margin-bottom: 0px;
+}
+.institucional__titulo2{
+    font: bold 40px 'Poiret One', cursive; 
+    text-decoration: underline #ffe74c; 
+    grid-area: h2;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.institucional-consejo{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 20px 60px;
+    grid-area: consejo;
+}
+.operandis__contenedor4{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor5{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor6{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor7{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor8{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor9{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor10{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
+.operandis__contenedor11{
+    width: 100%;
+    margin-bottom: 5px;
+    align-content: center;
+}
