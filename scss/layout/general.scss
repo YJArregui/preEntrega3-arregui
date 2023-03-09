@@ -30,12 +30,12 @@ main{
 body{
     background-color: $fourth-color;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr;
     grid-template-areas: 
-        "header header header header"
-        "main main main main"
-        "main main main main"
-        "footer footer footer footer";
+        "header"
+        "main"
+        "main"
+        "footer";
 
 }
 
